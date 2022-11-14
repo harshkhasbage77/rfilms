@@ -1,12 +1,12 @@
 <p align="center">
-<img src="assets/img/logos/LOGO-SVGwhite.png" height="100" />
+<img src="assets/img/logos/White-01.png" height="100" />
 </p>
 
 <h1 align="center">Official Website of RIKAAR Films</h1>
 
 <h2 align="center">🌐 Website</h2>
 <p align="center">
-<a href="https://varunbhasin.com/" target="_blank"><img height="28" src = "https://img.shields.io/badge/-https://shutterbugs.mitaoe.ac.in-fed136?style=for-the-badge"></a>
+<a href="https://varunbhasin.com/" target="_blank"><img height="28" src = "assets/img/logos/cameralogo.png"></a>
 </p>
 <h2 align="center">👥 Follow Me</h2>
 <p align="center">

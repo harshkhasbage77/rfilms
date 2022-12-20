@@ -47,6 +47,12 @@
   box-sizing: border-box;
 }
 
+/* It's my code */
+.h_filmshots{
+  padding-left: 0.05rem !important;
+  padding-right: 0.05rem !important;
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -4407,7 +4413,8 @@ input[type=button].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  /* border: 1px solid rgba(0, 0, 0, 0.125); december change */
+  border: 1px solid var(--white);
   border-radius: 0.25rem;
 }
 .card > hr {
@@ -7442,9 +7449,9 @@ button.bg-danger:focus {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 
-.shadow {
+/* .shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-}
+} */
 
 .shadow-lg {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
@@ -10493,8 +10500,9 @@ header
   text-align: center;
 }
 .team-member img {
-  width: 14rem;
-  height: 14rem;
+  /* december change  */
+  width: 18rem;
+  height: 18rem;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
   object-fit: cover;
 }
@@ -10568,7 +10576,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .row{
-  padding-bottom: 3em;
+  /* padding-bottom: 3em; december change*/
 }
 
 
@@ -10607,13 +10615,13 @@ section#contact form#contactForm :-ms-input-placeholder {
     background: linear-gradient(40deg, #2096ff, #05ffa3);
     }
     .card {
-      margin: 0 auto; /* Added */
+      margin: 0 auto !important; /* Added */   /* addind important was a december change*/
       float: none; /* Added */
       margin-bottom: 10px; /* Added */
-      padding: 8px 12px;
+      /* padding: 8px 12px; december change  */
       border-radius: 10px;
       text-decoration: none;
-      box-shadow: 0 3px 6px rgba(5, 5, 5, 0.4)
+      /* box-shadow: 0 3px 6px rgba(5, 5, 5, 0.4)  december change*/
     }
   .card-title{
     padding-top: 0.5rem;

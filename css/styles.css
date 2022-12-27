@@ -6324,6 +6324,9 @@ button.bg-danger:focus {
 .rounded-circle {
   border-radius: 10% !important;
 }
+#lifestyle,#stories,#fashion .rounded-circle {
+  border-radius: 0% !important;
+}
 
 .rounded-pill {
   border-radius: 50rem !important;
@@ -10504,6 +10507,21 @@ header
   width: 18rem;
   height: 18rem;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+#fashion .team-member img {
+  /* december change  */
+  width: 18rem;
+  height: 18rem;
+  border: 0rem solid rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+#lifestyle,#stories .team-member img {
+  /* december change  */
+  padding-left: 1px !important;
+  width: 18rem;
+  height: 18rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
   object-fit: cover;
 }
 .team-member h4 {

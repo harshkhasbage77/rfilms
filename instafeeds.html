@@ -1685,6 +1685,23 @@
       </div>
   </section>
 
+  <script>
+    const boxes = document.querySelectorAll('.card-deck');
+    window.addEventListener('scroll',checkBoxes)
+    checkboxes()
+
+    function checkBoxes(){
+      const triggerBotton = window.innerHeight;
+      boxes.forEach(box=>{
+        const boxTop = box.getBoundingClientRect().top
+        if(boxTop<triggerBotton){
+          box.classList.add('card-deck-transition')
+        } else{
+          box.classList.remove('card-deck-transition')
+        }
+      })
+    }
+  </script>
 
     <footer>
   <div >

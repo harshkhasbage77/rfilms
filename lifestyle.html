@@ -192,7 +192,7 @@
           <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate odit quod ad quae earum quam cumque quibusdam quisquam, voluptas aspernatur.</h3>
         </div>
        
-        <div class="row">
+        <div class="row box">
           <div class="col-lg">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="assets/img/portfolios/1.jpg" alt="" />
@@ -216,7 +216,7 @@
           
         </div>
         
-        <div class="row">
+        <div class="row box">
           <div class="col-lg">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="assets/img/portfolios/5.jpg" alt="" />
@@ -239,7 +239,7 @@
           </div>
         </div>
                 
-        <div class="row">
+        <div class="row box">
           <div class="col-lg">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="assets/img/portfolios/9.jpg" alt="" />
@@ -262,7 +262,7 @@
           </div>
         </div>
                 
-        <div class="row">
+        <div class="row box">
           <div class="col-lg">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="assets/img/portfolios/13.jpg" alt="" />
@@ -285,7 +285,7 @@
           </div>
         </div>
                 
-        <div class="row">
+        <div class="row box">
           <div class="col-lg">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="assets/img/portfolios/17.jpg" alt="" />
@@ -308,7 +308,7 @@
           </div>
         </div>
                 
-        <div class="row">
+        <div class="row box">
           <div class="col-lg">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="assets/img/portfolios/21.jpg" alt="" />
@@ -331,7 +331,7 @@
           </div>
         </div>
                 
-        <div class="row">
+        <div class="row box">
           <div class="col-lg">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="assets/img/portfolios/25.jpg" alt="" />
@@ -354,7 +354,7 @@
           </div>
         </div>
                 
-        <div class="row">
+        <div class="row box">
           <div class="col-lg">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="assets/img/portfolios/29.jpg" alt="" />
@@ -377,7 +377,7 @@
           </div>
         </div>
                 
-        <div class="row">
+        <div class="row box">
           <div class="col-lg">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="assets/img/portfolios/33.jpg" alt="" />
@@ -400,7 +400,7 @@
           </div>
         </div>
                 
-        <div class="row">
+        <div class="row box">
           <div class="col-lg">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="assets/img/portfolios/37.jpg" alt="" />
@@ -423,7 +423,7 @@
           </div>
         </div>
                 
-        <div class="row">
+        <div class="row box">
           <div class="col-lg">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="assets/img/portfolios/41.jpg" alt="" />
@@ -454,6 +454,24 @@
         </div>
   
     </section>
+
+    <script>
+      const boxes = document.querySelectorAll('.box');
+      window.addEventListener('scroll',checkBoxes)
+      checkboxes()
+
+      function checkBoxes(){
+        const triggerBotton = window.innerHeight/5*4;
+        boxes.forEach(box=>{
+          const boxTop = box.getBoundingClientRect().top
+          if(boxTop<triggerBotton){
+            box.classList.add('show')
+          } else{
+            box.classList.remove('show')
+          }
+        })
+      }
+    </script>
 
   
     <!-- Team-->

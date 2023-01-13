@@ -11484,11 +11484,12 @@ iframe {
 .navbar-back{
   padding: 0%;
   margin: 0%;
-  height: 25%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
   overflow-y: hidden;
 }
 .navbar-back img{
   width: 100%;
-  height: min-content;
-  filter: blur(5px);
+  filter: blur(0px);
 }

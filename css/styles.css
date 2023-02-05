@@ -1,15 +1,5 @@
 @charset "UTF-8";
-/*
-* Start Bootstrap - Agency v6.0.2 (https://startbootstrap.com/template-overviews/agency)
-* Copyright 2013-2020 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
-*/
-/*
- * Bootstrap v4.5.0 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -420,6 +410,10 @@ h3,
 h4,
 .h4 {
   font-size: 1.5rem;
+}
+
+.city {
+  font-size: 1.2rem;
 }
 
 h5,
@@ -11628,4 +11622,12 @@ iframe {
 
   .background, .foreground{
     z-index: -1;
+  }
+
+  .about-text{
+    font-size: 1.3rem;
+  }
+  
+  .grey-text{
+    color: #434343;
   }

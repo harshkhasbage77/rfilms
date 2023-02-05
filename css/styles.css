@@ -10255,7 +10255,7 @@ a.text-secondary:focus {
 }
 
 .text-success {
-  color: #000000 !important;
+  color: #020205 !important;
 }
 
 a.text-success:hover,
@@ -11627,7 +11627,7 @@ iframe {
   .about-text{
     font-size: 1.3rem;
   }
-  
+
   .grey-text{
     color: #434343;
   }

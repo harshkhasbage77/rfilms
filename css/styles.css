@@ -412,10 +412,6 @@ h4,
   font-size: 1.5rem;
 }
 
-.city {
-  font-size: 1.2rem;
-}
-
 h5,
 .h5 {
   font-size: 1.25rem;
@@ -4280,6 +4276,15 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+}
+
+#mainNav .navbar_b a{
+  font-family: 'Arimo', sans-serif !important;
+}
+
+#mainNav .navbar-portfolio {
+  font-family: 'Arimo', sans-serif !important;
+  letter-spacing: 3px;
 }
 
 .nav-link {
@@ -10461,6 +10466,7 @@ p {
   font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
+  letter-spacing: 3px;
 }
 .page-section h3.section-subheading {
   font-size: 1.5 rem;
@@ -10470,6 +10476,11 @@ p {
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 4rem;
+}
+
+.description-css{
+  font-size: 18px;
+  letter-spacing: 3px;
 }
 
 @media (min-width: 768px) {
@@ -10550,9 +10561,11 @@ img::-moz-selection {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 0.95rem;
+  /* font-size: 0.95rem; */
+  font-size: 14px;
   color: #fff;
-  letter-spacing: 0.0625em;
+  /* letter-spacing: 0.0625em; */
+  letter-spacing: 3px;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -11171,6 +11184,8 @@ pills-peach-gradient nav-item nav-link active {
 @media screen and (max-width: 450px) {
   .camera-img {
     width: 100% !important;
+    transform: translate(0px,0px) !important;
+    margin: 2rem 0rem;
   }
   .carousel-button {
     position: absolute;
@@ -11182,7 +11197,7 @@ pills-peach-gradient nav-item nav-link active {
 
 @media screen and (max-width: 769px) {
   .carousel-item {
-    max-height: 144px;
+    /* max-height: 144px; */
     width: 100%;
     background-image: cover;
   }
@@ -11490,13 +11505,21 @@ iframe {
 
 @media only screen and (max-width: 1920px){
   .navbar_a{
+    transform: translateX(-350px);
+  }
+  .navbar_b{
+    transform: translateX(350px);
+  }
+}
+@media only screen and (max-width: 1720px){
+  .navbar_a{
     transform: translateX(-300px);
   }
   .navbar_b{
     transform: translateX(300px);
   }
 }
-@media only screen and (max-width: 1720px){
+@media only screen and (max-width: 1520px){
   .navbar_a{
     transform: translateX(-200px);
   }
@@ -11504,7 +11527,7 @@ iframe {
     transform: translateX(200px);
   }
 }
-@media only screen and (max-width: 1520px){
+@media only screen and (max-width: 1350px){
   .navbar_a{
     transform: translateX(-150px);
   }
@@ -11512,7 +11535,7 @@ iframe {
     transform: translateX(150px);
   }
 }
-@media only screen and (max-width: 1350px){
+@media only screen and (max-width: 1200px){
   .navbar_a{
     transform: translateX(-50px);
   }
@@ -11520,16 +11543,28 @@ iframe {
     transform: translateX(50px);
   }
 }
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1000px){
   .navbar_a{
-    transform: translateX(-10px);
+    transform: translateX(-40px);
   }
   .navbar_b{
-    transform: translateX(10px);
+    transform: translateX(40px);
   }
 }
 
-.navbar_b{
+/* MOBILE VIEW */
+@media only screen and (max-width: 576px){
+  .navbar_a{
+    transform: translateX(0px);
+  }
+  .navbar_b{
+    transform: translateX(40px);
+  }
+}
+
+.navbar-height{
+  height: 64px ;
+  background-color: rgba(2, 2, 5, 0.75) !important;
   font-family: 'Arimo', sans-serif !important;
 }
 
@@ -11628,10 +11663,51 @@ iframe {
     z-index: -1;
   }
 
-  .about-text{
-    font-size: 1.3rem;
+  .about-text-color{
+    color: #919191 !important;
+  }
+
+  .about-text-bolder{
+    font-weight: 900;
+  }
+
+  .about-text-spacing{
+    letter-spacing: 1px;
   }
 
   .grey-text{
     color: #434343;
   }
+
+  .arimo-it-is h4{
+    font-family: 'Arimo', sans-serif !important;
+  }
+
+  .arimo-it-is{
+    padding-top: 4px;
+    padding-bottom: 28px;
+  }
+
+  .couple-name{
+    font-size: 18px;
+  }
+  
+.city {
+  font-size: 16px;
+  letter-spacing: 2px !important;
+}
+
+.icon{
+  width: 40px;
+}
+
+.footer-arimo{
+  font-family: 'Arimo', sans-serif !important;
+}
+
+/* MOBILE VIEW */
+@media only screen and (max-width: 576px){
+  .mobile-not-line{
+    display: none;
+  }
+}

@@ -6464,6 +6464,12 @@ a.close.disabled {
   width: 60px;
 }
 
+@media screen and (max-width: 600px) {
+  .carousel-buttons{
+    width: 20px;
+  }
+}
+
 .carousel-indicators {
   position: absolute;
   right: 0;
@@ -11754,6 +11760,15 @@ iframe {
   transform: translateX(-80px);
 }
 
+@media screen and (max-width: 650px) {
+  .hi{
+    transform: translateX(0px);
+  }
+  .video1{
+    margin-top: 5rem;
+  }
+}
+
 .about-displace{
   transform: translateY(50px);
 }
@@ -11768,3 +11783,4 @@ iframe {
   letter-spacing: 2px;
   color: #212529;
 }
+
